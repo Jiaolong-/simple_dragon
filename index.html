@@ -4,7 +4,7 @@ title: 我们
 ---
 
 <h2>{{ page.title }}</h2>
-<p>         只想记录点点滴滴</p>
+<p>只想记录点点滴滴</p>
 <ul>
 	{% for post in site.posts %}
 	<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
